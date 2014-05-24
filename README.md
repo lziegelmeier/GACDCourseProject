@@ -29,18 +29,17 @@ Using the Samsung Galaxy Data Set, the following is contained in this repo:
 
 1.  run_analysis.R
   R code to read in the data mentioned above, and output a tidy data set Tidy.txt with the features described above. 
-
-This code completes the following steps:
-a. Read in both the training and testing data and store x,y,and subject variables
-b. Read in the features data
-c. Make the headings of the x data the list of features
-d. Combine the x,y, and subject train data.  Do the same for the test data
-e. Combine the train and test data
-f. Extract only the measurements on the means and standard deviation
-g. Replace all entries in the activityID column with the descriptions of the activities
-h. Replace the column labels with more readable names
-i. Create a second tidy with the average of each variable for each activity and each subject for each variable.
-j. Create tidy data set.
+  This code completes the following steps:
+    a. Read in both the training and testing data and store x,y,and subject variables
+    b. Read in the features data
+    c. Make the headings of the x data the list of features
+    d. Combine the x,y, and subject train data.  Do the same for the test data
+    e. Combine the train and test data
+    f. Extract only the measurements on the means and standard deviation
+    g. Replace all entries in the activityID column with the descriptions of the activities
+    h. Replace the column labels with more readable names
+    i. Create a second tidy with the average of each variable for each activity and each subject for each variable.
+    j. Create tidy data set.
 
 2.  Tidy.txt
   The tidy data set created using run_analysis.R with comma separated delimiters.
